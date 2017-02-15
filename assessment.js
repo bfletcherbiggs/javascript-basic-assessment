@@ -77,7 +77,7 @@ heroes.unshift('spongebob')
 // remove 'flash' from the array and store him in a variable called secondHero
 var secondHero = heroes.splice(heroes.indexOf('flash'),1).join()
 // leave batman in the array but put a copy of him on a variable called thirdHero
-var thirdHero = heroes[heroes.indexOf('batman')]
+var thirdHero = heroes.slice(1,2).join()
 
 
 
